@@ -1,0 +1,46 @@
+Git:Git is a version control system used for tracking changes in computer files. 
+Github:GitHub is a code hosting platform for version control 
+Repository:it is a simple project folder
+Working Directory:The working directory is just a file path on your computer 
+Staging area:It is the area between remote repository and local repository
+Remote repository:which is away from you i.e where you are creating it(ex:Github)
+Local Repository:the folder in your laptop
+Note:Working Directory files will be moved to local repository only if they are commited
+
+
+mkdir-create new folder
+ls-to display the list
+-a(to display hidden files(.git files are hidden))
+touch-to create a nwe file
+git status-to know the status
+git add filename.filetype
+git commit -m "any message of your choice"
+cat-display the items in file
+git log-to know the history(have to check only after commiting)
+git stash(used when you dont want to commit or dont want to loose the changes)
+git stash pop -bring back the changes
+git stash clear-to delete the bakstage changes
+
+git remote add origin url-
+git remote -v-show all the urls attached to the folder
+
+git push origin master
+
+
+git restore --staged filename
+ 
+
+rm -rf filename-to delete
+
+
+
+
+
+
+
+
+
+
+
+
+ctrl+c :wq press enter
